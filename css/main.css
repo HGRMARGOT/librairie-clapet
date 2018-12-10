@@ -275,6 +275,7 @@ button {
   display: block;
   padding: 10px;
   color: #fff;
+  font-size: 1.8em;
 }
 .nav-main__link:hover {
   text-decoration: none;
