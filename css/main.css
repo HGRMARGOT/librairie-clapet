@@ -197,8 +197,9 @@ button {
 .chapo {
   font-size: 2.5em;
   text-align: center;
-  width: 1440px;
-  height: 461.7px;
+  margin: auto;
+  width: 960px;
+  height: 116px;
 }
 
 .full-width {
@@ -305,6 +306,7 @@ button {
 
 .honey-pot-list {
   text-align: center;
+  width: 1440px;
 }
 
 .honey-pot {
