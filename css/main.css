@@ -93,8 +93,7 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 960px;
-  max-width: 100%;
+  width: 1440px;
 }
 
 .text-container {
@@ -293,8 +292,8 @@ button {
 .separator {
   display: block;
   margin: 50px auto;
-  width: 193.2px;
-  height: 51.8px;
+  width: 200px;
+  height: 1px;
   border: none;
   background-color: #d9d9d9;
 }
