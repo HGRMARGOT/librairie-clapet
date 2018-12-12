@@ -341,7 +341,8 @@ button {
 .honey-pot__title {
   margin: 0;
   font-size: 2.6em;
-  font-weight: 700;
+  font-family: 'Montserrat';
+  font-weight: 600;
 }
 
 .honey-pot__subtitle {
