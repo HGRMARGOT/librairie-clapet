@@ -255,6 +255,8 @@ button {
 .header__title {
   font-size: 6.4em;
   margin: 0;
+  margin-bottom: 76px;
+  margin-top: -28px;
 }
 
 .header__subtitle {
