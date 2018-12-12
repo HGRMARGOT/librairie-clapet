@@ -157,6 +157,10 @@ button {
   display: block;
   color: inherit;
 }
+.link-block-grand {
+  display: flex;
+  color: inherit;
+}
 .link-block:hover {
   text-decoration: none;
 }
@@ -308,6 +312,8 @@ button {
 .honey-pot-list {
   text-align: center;
   width: 1440px;
+  display: inline-flex;
+  justify-content: space-around;
 }
 
 .honey-pot {
@@ -374,25 +380,41 @@ button {
   margin-bottom: 10px;
   filter: grayscale(0);
 }
-
+.news__image-grand {
+  display: block;
+  width: 100%;
+}
 .news__image {
   display: block;
   width: 100%;
 }
-
+.news__date-grand {
+  margin: 0;
+  font-size: 1.8em;
+  color: #e8a27d;
+}
 .news__date {
   margin: 0;
   font-size: 1.8em;
   color: #e8a27d;
 }
-
+.news__title-grand {
+  margin: 0 0 15px;
+  font-weight: bold;
+  font-size: 3.4em;
+  line-height: 1.4;
+}
 .news__title {
   margin: 0 0 15px;
   font-weight: bold;
   font-size: 2em;
   line-height: 1.4;
 }
-
+.news__text-grand {
+  margin: 0;
+  font-size: 2.4em;
+  line-height: 1.4;
+}
 .news__text {
   margin: 0;
   font-size: 1.4em;
@@ -437,6 +459,10 @@ button {
 
 .news-list__news {
   grid-column: span 1;
+}
+
+.news-list__news-grand {
+  grid-column: span 3;
 }
 
 /**
