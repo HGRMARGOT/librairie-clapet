@@ -93,6 +93,7 @@ button {
   margin: auto;
   padding: 0 15px;
   width: 1440px;
+  max-width: 100%;
 }
 
 .text-container {
@@ -231,6 +232,7 @@ button {
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
+  max-width: 100%;
 }
 
 
@@ -454,6 +456,23 @@ button {
   grid-column: span 1;
 }
 
+.actu-list {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
+}
+
+.actu-list__news {
+  grid-column: span 1;
+}
+.actu-list__new--2 {
+  grid-column: span 2;
+}
+.actu-list__new--4 {
+  grid-column: span 4;
+}
 
 /**
 * -----------
