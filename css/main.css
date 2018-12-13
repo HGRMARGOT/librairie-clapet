@@ -397,8 +397,19 @@ button {
   font-size: 3.4em;
   line-height: 1.4;
 }
+.actu-list__new--4 .news__title {
+  margin: 0 0 15px;
+  font-weight: bold;
+  font-size: 3.4em;
+  line-height: 1.4;
+}
 
 .news--main .news__text {
+  margin: 0;
+  font-size: 2.4em;
+  line-height: 1.4;
+}
+.actu-list__new--4 .news__text {
   margin: 0;
   font-size: 2.4em;
   line-height: 1.4;
@@ -431,7 +442,16 @@ button {
   display: flex;
   align-items: flex-start;
 }
+.actu-list__new--4 .news__link {
+  display: flex;
+  align-items: flex-start;
+}
 .news--main .news__thumbnail {
+  margin-bottom: 0;
+  margin-right: 40px;
+  min-width: 450px;
+}
+.actu-list__new--4 .news__thumbnail {
   margin-bottom: 0;
   margin-right: 40px;
   min-width: 450px;
