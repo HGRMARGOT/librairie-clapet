@@ -32,7 +32,7 @@ p {
 }
 
 .quote {
-  font-size: 1.8em;
+  font-size: 2.8em;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-weight: 200;
   color: #d9926c;
@@ -221,9 +221,20 @@ button {
   max-width: 960px;
   height: 116px;
 }
+.chapo1 {
+  font-size: 2.5em;
+  font-weight: 400;
+  text-align: justify;
+  margin: auto;
+  max-width: 960px;
+  height: 116px;
+}
 .parents {
   display: flex;
   align-items:center;
+}
+.autor {
+  text-align: right;
 }
 .enfant {
   width: 960px;
