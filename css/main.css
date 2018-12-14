@@ -35,6 +35,7 @@ p {
   font-size: 2.8em;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-weight: 200;
+  border-left: #d9d9d9 4px solid;
   color: #d9926c;
 }
 
@@ -334,9 +335,22 @@ button {
 */
 .separator {
   display: block;
-  margin: 50px auto;
-  height: 50px;
+  margin: 100px auto;
+  width: 200px;
+  height: 1px;
+  transform: rotate(15deg);
   border: none;
+  background-color: #d9d9d9;
+}
+.separator::before {
+  content: "";
+  display: block;
+  margin: 100px auto;
+  width: 200px;
+  height: 1px;
+  transform: rotate(-30deg);
+  border: none;
+  background-color: #d9d9d9;
 }
 
 
